@@ -1,6 +1,6 @@
 ## This is the official implementation of the paper "Towards Class Imbalance and Uncertainty in Powder XRD Analysis: A Dual-Channel Fusion Network for Space Group Classification"
 
-### overview
+### Overview
 Accurate and automated identification of the 230 crystal space groups from pXRD patterns is a critical but challenging task in materials science. Standard deep learning models often fail when applied to real-world experimental data due to noise, severe class imbalance, and the gap between simulated and experimental domains. Furthermore, their "black box" nature limits their trustworthiness in scientific applications. DFUN is designed to address these challenges with a complete and reliable framework.
 
 ### Project directory structure
