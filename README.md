@@ -4,6 +4,7 @@
 Accurate and automated identification of the 230 crystal space groups from pXRD patterns is a critical but challenging task in materials science. Standard deep learning models often fail when applied to real-world experimental data due to noise, severe class imbalance, and the gap between simulated and experimental domains. Furthermore, their "black box" nature limits their trustworthiness in scientific applications. DFUN is designed to address these challenges with a complete and reliable framework.
 
 ### Project directory structure
+Due to size limitations, we only provide the RUFF dataset in the warehouse. Please download the following document link if you want to test other public data.
 ```
 📦DFUN
  ┣ 📂generation
@@ -13,6 +14,7 @@ Accurate and automated identification of the 230 crystal space groups from pXRD 
  ┣ 📜api_results_cache.pkl
  ┣ 📜gen.ipynb
  ┣ 📜mpids.npy
+ ┣ 📜rruff_xrd.npz
  ┣ 📜train.py
  ┗ 📜uncertainty_train.py
 ```
