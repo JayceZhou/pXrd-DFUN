@@ -1,0 +1,2 @@
+input_file,uncertainty_source,mc_dropout,mc_passes,model_name,perturbation_type,seed,num_samples
+revision_outputs/gate_perturbation/per_sample/final_gate_fls_model_gate_perturbation_per_sample.csv,single_softmax,False,0,final_gate_fls_model,clean,0,245

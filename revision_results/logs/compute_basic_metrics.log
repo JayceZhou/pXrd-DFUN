@@ -1,0 +1,9 @@
+2026-05-09 00:09:37,399 | INFO | Input summary is empty; wrote empty metrics schema to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 00:37:22,906 | INFO | Input summary is empty; wrote empty metrics schema to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 00:37:44,141 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 00:39:50,456 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 10:45:02,983 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 10:49:27,063 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model.csv
+2026-05-09 10:58:30,822 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model_legacy_ablation_raw_test.csv
+2026-05-09 11:26:38,264 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_by_model_legacy_ablation_augmented_test.csv
+2026-05-09 11:58:11,884 | INFO | Wrote basic metrics to revision_outputs/metrics/basic_metrics_corrected_ablation_mapping.csv

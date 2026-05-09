@@ -1,0 +1,2 @@
+entropy_auroc,entropy_aupr,max_probability_auroc,max_probability_aupr,num_samples,num_errors
+0.8629045782324333,0.7412436032160514,0.8738051316451451,0.7721463156405858,245,67

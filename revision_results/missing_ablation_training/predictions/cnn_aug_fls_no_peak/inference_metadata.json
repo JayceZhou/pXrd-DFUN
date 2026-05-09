@@ -1,0 +1,15 @@
+{
+  "best_checkpoint_selection_metric": "validation_weighted_f1",
+  "best_checkpoint_selection_split": "validation",
+  "best_epoch": 39,
+  "best_validation_score": 0.6674087271855128,
+  "checkpoint_path": "revision_outputs/missing_ablation_training/cnn_aug_fls_no_peak/best_checkpoint.pth",
+  "created_at": "2026-05-09T16:25:38",
+  "evaluation_split": "legacy augmented 245 split",
+  "gate_definition": null,
+  "model_name": "cnn_aug_fls_no_peak",
+  "num_classes": 230,
+  "num_test_samples": 245,
+  "probability_sum_max": 1.0000004768371582,
+  "probability_sum_min": 0.9999997615814209
+}

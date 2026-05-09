@@ -1,0 +1,24 @@
+{
+  "checkpoint_path": "training_results/exp_results/exp_test4_model.pth",
+  "created_at": "2026-05-09T12:28:48",
+  "dataset_npz": "revision_outputs/configs/opxrd_legacy_augmented_seed42.npz",
+  "fls_status": "verified",
+  "fusion_mode": "gate",
+  "gate_definition": "PhyNetCNN.Model.forward computes g = gating_network(cat(xrd_features, phys_features)); gated_xrd_features = g * xrd_features and gated_phys_features = (1 - g) * phys_features. Larger gate_weight means stronger scaling of the CNN/XRD branch and weaker scaling of the peak/physical-feature branch. It is a scalar feature gate, not a calibrated branch probability.",
+  "model_name": "final_gate_fls_model",
+  "perturbations": [
+    "clean",
+    "strong_peak_scaling",
+    "peak_elimination",
+    "preferred_orientation_like"
+  ],
+  "preferred_orientation_like_note": "approximate peak-intensity reweighting, not hkl/March-Dollase",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_indices_path": "revision_outputs/configs/final_gate_fls_eval_split_indices.json"
+}

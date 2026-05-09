@@ -1,0 +1,5 @@
+ablation_id,model_config,accuracy_percent,weighted_f1_percent,source,notes
+1,CNN only,63.6,62.3,user_corrected_mapping_2026-05-09,"Corrected mapping from user. Inference uses ablation1_model.pth with xrd_only fusion on raw 239-sample split."
+2,CNN + Augmentation,65.7,64.7,user_corrected_mapping_2026-05-09,"Corrected mapping from user. Inference uses ablation2_model.pth with xrd_only fusion on recreated legacy augmented 245-sample split."
+3,CNN + Augmentation + Peaks (Concat),66.5,66.4,user_corrected_mapping_2026-05-09,"Corrected mapping from user. Inference uses ablation3_model.pth with explicit concat fusion on recreated legacy augmented 245-sample split."
+4,CNN + Augmentation + Peaks (Gate),69.0,67.9,user_corrected_mapping_2026-05-09,"Corrected mapping from user. Inference uses ablation4_model.pth with gate fusion on recreated legacy augmented 245-sample split."

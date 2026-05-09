@@ -1,0 +1,2 @@
+top1_accuracy,top3_accuracy,top3_accuracy_corrected_for_all_samples,num_samples,num_errors
+0.726530612244898,0.763265306122449,0.763265306122449,245,67

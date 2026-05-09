@@ -1,0 +1,5 @@
+model_name,dataset,perturbation_type,accuracy,weighted_f1,macro_f1,top3_accuracy,n_samples,n_classes_evaluated,mean_predictive_entropy,mean_gate_weight,notes
+candidate_ablation1,opxrd,legacy_ablation_augmented_test,0.8775510204081632,0.8563517817730187,0.6887025513816984,0.9387755102040817,245,56,1.1740706309794022,,Mean gate weight unavailable.
+candidate_ablation2,opxrd,legacy_ablation_augmented_test,0.6612244897959184,0.6514612027297324,0.4285409241019052,0.7428571428571429,245,56,0.9458532802075527,,Mean gate weight unavailable.
+candidate_ablation3,opxrd,legacy_ablation_augmented_test,0.6571428571428571,0.6578660650683607,0.46549806659609044,0.726530612244898,245,56,1.6302018668821725,0.5039581570612245,
+candidate_ablation4,opxrd,legacy_ablation_augmented_test,0.6938775510204082,0.6810199002226296,0.4528109172763625,0.7510204081632653,245,56,0.4005261317852739,0.8761928993061224,

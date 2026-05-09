@@ -1,0 +1,8 @@
+2026-05-09 11:57:20,045 | INFO | Wrote inference outputs to revision_outputs/predictions/corrected_ablation_mapping/ablation1_cnn_only_opxrd
+2026-05-09 11:57:20,057 | INFO | Finished ablation1_cnn_only: n=239 classes=230 entropy=[0.0040, 4.0815]
+2026-05-09 11:57:25,331 | INFO | Wrote inference outputs to revision_outputs/predictions/corrected_ablation_mapping/ablation2_cnn_augmentation_opxrd
+2026-05-09 11:57:25,347 | INFO | Finished ablation2_cnn_augmentation: n=245 classes=230 entropy=[0.0000, 4.4817]
+2026-05-09 11:57:30,408 | INFO | Wrote inference outputs to revision_outputs/predictions/corrected_ablation_mapping/ablation3_cnn_aug_peaks_concat_opxrd
+2026-05-09 11:57:30,422 | INFO | Finished ablation3_cnn_aug_peaks_concat: n=245 classes=230 entropy=[0.0000, 4.2225]
+2026-05-09 11:57:35,494 | INFO | Wrote inference outputs to revision_outputs/predictions/corrected_ablation_mapping/ablation4_cnn_aug_peaks_gate_opxrd
+2026-05-09 11:57:35,508 | INFO | Finished ablation4_cnn_aug_peaks_gate: n=245 classes=230 entropy=[0.0000, 3.5893]

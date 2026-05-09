@@ -1,0 +1,25 @@
+model_name: "cnn_peaks_concat_no_aug"
+num_classes: 230
+random_seed: 42
+batch_size: 64
+learning_rate: 0.0005
+num_epochs: 300
+early_stopping: true
+early_stopping_patience: 25
+best_checkpoint_metric: "validation_weighted_f1"
+best_checkpoint_split: "validation"
+device: "cuda:0"
+output_dir: "revision_outputs/missing_ablation_training/cnn_peaks_concat_no_aug"
+use_xrd_branch: true
+use_peak_branch: true
+fusion_mode: "concat"
+use_augmentation: false
+use_fls: false
+focal_loss_gamma: null
+label_smoothing: null
+dataset_npz: "experiment_xrd.npz"
+split_file: "revision_outputs/missing_ablation_training/configs/splits/raw_no_aug_train_val_test_seed42.json"
+train_split: "raw_no_aug_train"
+val_split: "raw_no_aug_validation"
+test_split: "raw_no_aug_test_239"
+evaluation_split: "raw 239 split"

@@ -1,0 +1,104 @@
+{
+  "class_counts_path": "revision_outputs/metrics/class_counts.csv",
+  "dataset": "unknown",
+  "datasets": [
+    "opxrd"
+  ],
+  "entropy_calculation": "H = -sum_c p_bar_c * log(p_bar_c + 1e-12); H_norm = H / log(num_classes)",
+  "gate_weight_definition": "PhyNetCNN.Model.forward computes g = gating_network(cat(xrd_features, phys_features)); gated_xrd_features = g * xrd_features and gated_phys_features = (1 - g) * phys_features. Larger gate_weight means stronger scaling of the CNN/XRD branch and weaker scaling of the peak/physical-feature branch. It is a scalar feature gate, not a calibrated branch probability.",
+  "input_files": [
+    "revision_outputs/predictions/legacy_ablation_test/candidate_ablation1_opxrd/predictions_for_summary.npz",
+    "revision_outputs/predictions/legacy_ablation_test/candidate_ablation2_opxrd/predictions_for_summary.npz",
+    "revision_outputs/predictions/legacy_ablation_test/candidate_ablation3_opxrd/predictions_for_summary.npz",
+    "revision_outputs/predictions/legacy_ablation_test/candidate_ablation4_opxrd/predictions_for_summary.npz",
+    "revision_outputs/predictions/legacy_ablation_test/candidate_npjt_topk_opxrd/predictions_for_summary.npz",
+    "revision_outputs/predictions/legacy_ablation_test/candidate_exp_test4_opxrd/predictions_for_summary.npz"
+  ],
+  "missing_fields_summary": [],
+  "model_name": "unknown",
+  "model_names": [
+    "candidate_ablation1",
+    "candidate_ablation2",
+    "candidate_ablation3",
+    "candidate_ablation4",
+    "candidate_exp_test4",
+    "candidate_npjt_topk"
+  ],
+  "per_file": [
+    {
+      "format": "npz",
+      "gate_weight_available": false,
+      "gate_weight_key": "gate_weight",
+      "gate_weight_note": "gate_weight key exists but all values are missing/NaN; treat gate as unavailable for this prediction file.",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_ablation1_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    },
+    {
+      "format": "npz",
+      "gate_weight_available": false,
+      "gate_weight_key": "gate_weight",
+      "gate_weight_note": "gate_weight key exists but all values are missing/NaN; treat gate as unavailable for this prediction file.",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_ablation2_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    },
+    {
+      "format": "npz",
+      "gate_weight_available": true,
+      "gate_weight_key": "gate_weight",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_ablation3_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    },
+    {
+      "format": "npz",
+      "gate_weight_available": true,
+      "gate_weight_key": "gate_weight",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_ablation4_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    },
+    {
+      "format": "npz",
+      "gate_weight_available": true,
+      "gate_weight_key": "gate_weight",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_npjt_topk_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    },
+    {
+      "format": "npz",
+      "gate_weight_available": true,
+      "gate_weight_key": "gate_weight",
+      "input_file": "revision_outputs/predictions/legacy_ablation_test/candidate_exp_test4_opxrd/predictions_for_summary.npz",
+      "missing_fields": [],
+      "num_classes": 230,
+      "pred_label_key": "pred_label",
+      "probability_source_key": "probabilities",
+      "sample_id_key": "sample_id",
+      "true_label_key": "true_label"
+    }
+  ],
+  "split_indices_path": "revision_outputs/configs/opxrd_legacy_ablation_test_raw_indices.json"
+}

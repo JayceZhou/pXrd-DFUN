@@ -1,0 +1,8 @@
+2026-05-09 11:25:56,225 | INFO | Wrote inference outputs to revision_outputs/predictions/legacy_ablation_augmented_test/candidate_ablation1_opxrd
+2026-05-09 11:25:56,240 | INFO | Finished candidate_ablation1: n=245 classes=230 entropy=[0.0040, 4.3750]
+2026-05-09 11:26:01,490 | INFO | Wrote inference outputs to revision_outputs/predictions/legacy_ablation_augmented_test/candidate_ablation2_opxrd
+2026-05-09 11:26:01,505 | INFO | Finished candidate_ablation2: n=245 classes=230 entropy=[0.0000, 4.4817]
+2026-05-09 11:26:06,564 | INFO | Wrote inference outputs to revision_outputs/predictions/legacy_ablation_augmented_test/candidate_ablation3_opxrd
+2026-05-09 11:26:06,580 | INFO | Finished candidate_ablation3: n=245 classes=230 entropy=[0.0002, 4.9060]
+2026-05-09 11:26:11,625 | INFO | Wrote inference outputs to revision_outputs/predictions/legacy_ablation_augmented_test/candidate_ablation4_opxrd
+2026-05-09 11:26:11,644 | INFO | Finished candidate_ablation4: n=245 classes=230 entropy=[0.0000, 3.5893]

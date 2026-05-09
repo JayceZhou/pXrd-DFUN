@@ -1,0 +1,15 @@
+{
+  "best_checkpoint_selection_metric": "validation_weighted_f1",
+  "best_checkpoint_selection_split": "validation",
+  "best_epoch": 16,
+  "best_validation_score": 0.6400175221603792,
+  "checkpoint_path": "revision_outputs/missing_ablation_training/cnn_peaks_gate_no_aug/best_checkpoint.pth",
+  "created_at": "2026-05-09T16:25:08",
+  "evaluation_split": "raw 239 split",
+  "gate_definition": "PhyNetCNN.Model.forward computes g = gating_network(cat(xrd_features, phys_features)); gated_xrd_features = g * xrd_features and gated_phys_features = (1 - g) * phys_features. Larger gate_weight means stronger scaling of the CNN/XRD branch and weaker scaling of the peak/physical-feature branch. It is a scalar feature gate, not a calibrated branch probability.",
+  "model_name": "cnn_peaks_gate_no_aug",
+  "num_classes": 230,
+  "num_test_samples": 239,
+  "probability_sum_max": 1.000000238418579,
+  "probability_sum_min": 0.9999997019767761
+}

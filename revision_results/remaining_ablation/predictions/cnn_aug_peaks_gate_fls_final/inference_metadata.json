@@ -1,0 +1,13 @@
+{
+  "source": "existing gate perturbation clean seed0 output",
+  "source_per_sample": "revision_outputs/gate_perturbation/per_sample/final_gate_fls_model_gate_perturbation_per_sample.csv",
+  "checkpoint_path": "training_results/exp_results/exp_test4_model.pth",
+  "model_name": "cnn_aug_peaks_gate_fls_final",
+  "configuration": "CNN + Augmentation + Peaks (Gate) + FLS",
+  "fusion_mode": "gate",
+  "training_augmentation": "yes",
+  "peak_branch": "enabled",
+  "fls_status": "user_confirmed_complete_model; not independently log-verified",
+  "evaluation_split": "legacy augmented 245 split",
+  "notes": "No new inference was run here; standardized from already completed final model clean inference."
+}

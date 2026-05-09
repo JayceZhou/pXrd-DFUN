@@ -1,0 +1,15 @@
+{
+  "best_checkpoint_selection_metric": "validation_weighted_f1",
+  "best_checkpoint_selection_split": "validation",
+  "best_epoch": 90,
+  "best_validation_score": 0.5507596796562612,
+  "checkpoint_path": "revision_outputs/missing_ablation_training/peaks_only_mlp/best_checkpoint.pth",
+  "created_at": "2026-05-09T16:24:35",
+  "evaluation_split": "raw 239 split",
+  "gate_definition": null,
+  "model_name": "peaks_only_mlp",
+  "num_classes": 230,
+  "num_test_samples": 239,
+  "probability_sum_max": 1.000000238418579,
+  "probability_sum_min": 0.9999997615814209
+}

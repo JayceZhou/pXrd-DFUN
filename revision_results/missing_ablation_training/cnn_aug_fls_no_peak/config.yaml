@@ -1,0 +1,25 @@
+model_name: "cnn_aug_fls_no_peak"
+num_classes: 230
+random_seed: 42
+batch_size: 64
+learning_rate: 0.0005
+num_epochs: 300
+early_stopping: true
+early_stopping_patience: 25
+best_checkpoint_metric: "validation_weighted_f1"
+best_checkpoint_split: "validation"
+device: "cuda:0"
+output_dir: "revision_outputs/missing_ablation_training/cnn_aug_fls_no_peak"
+use_xrd_branch: true
+use_peak_branch: false
+fusion_mode: "xrd_only"
+use_augmentation: true
+use_fls: true
+focal_loss_gamma: 1.5
+label_smoothing: 0.1
+dataset_npz: "revision_outputs/configs/opxrd_legacy_augmented_seed42.npz"
+split_file: "revision_outputs/missing_ablation_training/configs/splits/legacy_augmented_train_val_test_seed42.json"
+train_split: "legacy_augmented_train"
+val_split: "legacy_augmented_validation"
+test_split: "legacy_augmented_test_245"
+evaluation_split: "legacy augmented 245 split"

@@ -1,0 +1,8 @@
+2026-05-09 00:09:09,622 | INFO | Loaded 1194 labels from experiment_xrd.npz:labels230
+2026-05-09 00:09:09,623 | INFO | Applied label-level singleton augmentation before split: 1194 -> 1223 labels.
+2026-05-09 00:09:09,628 | INFO | Computed train split with 978 labels.
+2026-05-09 00:09:09,665 | INFO | Wrote class counts to revision_outputs/metrics/class_counts.csv
+2026-05-09 00:15:54,086 | INFO | Loaded 1194 labels from experiment_xrd.npz:labels230
+2026-05-09 00:15:54,086 | INFO | Applied label-level singleton augmentation before split: 1194 -> 1223 labels.
+2026-05-09 00:15:54,088 | INFO | Computed train split with 978 labels.
+2026-05-09 00:15:54,094 | INFO | Wrote class counts to revision_outputs/metrics/class_counts.csv

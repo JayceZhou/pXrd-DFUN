@@ -1,0 +1,21 @@
+2026-05-09 12:28:33,773 | INFO | Running clean seed=0
+2026-05-09 12:28:34,361 | INFO | Running clean seed=1
+2026-05-09 12:28:34,926 | INFO | Running clean seed=2
+2026-05-09 12:28:35,487 | INFO | Running clean seed=3
+2026-05-09 12:28:36,089 | INFO | Running clean seed=4
+2026-05-09 12:28:36,658 | INFO | Running strong_peak_scaling seed=0
+2026-05-09 12:28:37,293 | INFO | Running strong_peak_scaling seed=1
+2026-05-09 12:28:37,955 | INFO | Running strong_peak_scaling seed=2
+2026-05-09 12:28:38,640 | INFO | Running strong_peak_scaling seed=3
+2026-05-09 12:28:39,305 | INFO | Running strong_peak_scaling seed=4
+2026-05-09 12:28:39,940 | INFO | Running peak_elimination seed=0
+2026-05-09 12:28:40,570 | INFO | Running peak_elimination seed=1
+2026-05-09 12:28:41,197 | INFO | Running peak_elimination seed=2
+2026-05-09 12:28:41,824 | INFO | Running peak_elimination seed=3
+2026-05-09 12:28:42,449 | INFO | Running peak_elimination seed=4
+2026-05-09 12:28:43,095 | INFO | Running preferred_orientation_like seed=0
+2026-05-09 12:28:43,753 | INFO | Running preferred_orientation_like seed=1
+2026-05-09 12:28:44,407 | INFO | Running preferred_orientation_like seed=2
+2026-05-09 12:28:45,032 | INFO | Running preferred_orientation_like seed=3
+2026-05-09 12:28:45,658 | INFO | Running preferred_orientation_like seed=4
+2026-05-09 12:28:48,115 | INFO | Wrote gate perturbation outputs under revision_outputs/gate_perturbation

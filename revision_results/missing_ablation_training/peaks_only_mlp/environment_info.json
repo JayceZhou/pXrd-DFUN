@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-05-09T16:24:35",
+  "cuda_available": true,
+  "device": "cuda:0",
+  "git_commit": "5a2beccdad8c31c0b72502d6a3a5f07a99fc9180",
+  "python": "3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]",
+  "torch": "2.5.1+cu124"
+}

@@ -1,0 +1,2 @@
+2026-05-09 10:44:19,543 | INFO | Wrote inference outputs to revision_outputs/predictions/candidate_ablation2_opxrd
+2026-05-09 10:44:19,558 | INFO | Finished candidate_ablation2: n=239 classes=230 entropy=[0.0000, 4.1527]

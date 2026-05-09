@@ -1,0 +1,2 @@
+2026-05-09 11:25:35,499 | INFO | Wrote augmented dataset with 1194 raw + 29 augmented samples to revision_outputs/configs/opxrd_legacy_augmented_seed42.npz
+2026-05-09 11:25:35,499 | INFO | Wrote 245 eval indices to revision_outputs/configs/opxrd_legacy_augmented_test_indices.json

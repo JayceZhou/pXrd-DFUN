@@ -1,0 +1,2 @@
+2026-05-09 00:35:25,082 | INFO | Wrote inference outputs to revision_outputs/predictions/candidate_npjt_topk_opxrd
+2026-05-09 00:35:25,098 | INFO | Finished candidate_npjt_topk: n=239 classes=230 entropy=[0.0000, 4.3531]

@@ -1,0 +1,2 @@
+2026-05-09 00:35:49,598 | INFO | Wrote inference outputs to revision_outputs/predictions/candidate_exp_test4_opxrd
+2026-05-09 00:35:49,612 | INFO | Finished candidate_exp_test4: n=239 classes=230 entropy=[0.0317, 5.1716]

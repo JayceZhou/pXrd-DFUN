@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Completed ablation table. CNN only and no-augmentation rows use the raw 239 split; augmentation-based models use the legacy augmented 245 split unless otherwise specified.}
+\label{tab:completed_ablation}
+\begin{tabular}{lllllllllllll}
+\toprule
+Model & Training Augmentation & Peak Branch & Fusion & FLS & Evaluation Split & Accuracy & Weighted F1 & Macro F1 & Top-3 Accuracy & Evidence Level & Checkpoint & Notes \\
+\midrule
+CNN only & no & disabled & xrd\_only & no\_fls & raw 239 split & 63.60 & 62.32 & 36.26 & 71.97 & confirmed & training\_results/ablation/ablation1\_model.pth & Corrected ablation mapping; xrd\_only classifier input 12160; raw 239 split. \\
+Peaks only / MLP branch only & no & enabled & peak\_only & no\_fls & raw 239 split & 51.88 & 51.15 & 18.93 & 61.09 & new\_training\_validation\_selected & revision\_outputs/missing\_ablation\_training/peaks\_only\_mlp/best\_checkpoint.pth & Best checkpoint selected on validation weighted F1; final evaluation run once on fixed test split. \\
+CNN + Augmentation & yes & disabled & xrd\_only & no\_fls & legacy augmented 245 split & 66.12 & 65.15 & 42.85 & 74.29 & confirmed & training\_results/ablation/ablation2\_model.pth & Corrected ablation mapping; xrd\_only classifier input 12160; legacy augmented 245 split. \\
+CNN + Peaks, no augmentation, concat & no & enabled & concat & no\_fls & raw 239 split & 60.25 & 60.18 & 35.57 & 74.06 & new\_training\_validation\_selected & revision\_outputs/missing\_ablation\_training/cnn\_peaks\_concat\_no\_aug/best\_checkpoint.pth & Best checkpoint selected on validation weighted F1; final evaluation run once on fixed test split. \\
+CNN + Peaks (Gate), no augmentation & no & enabled & gate & no\_fls & raw 239 split & 62.34 & 63.77 & 37.64 & 69.04 & new\_training\_validation\_selected & revision\_outputs/missing\_ablation\_training/cnn\_peaks\_gate\_no\_aug/best\_checkpoint.pth & Best checkpoint selected on validation weighted F1; final evaluation run once on fixed test split. \\
+CNN + Augmentation + FLS, no peak branch & yes & disabled & xrd\_only & fls & legacy augmented 245 split & 66.12 & 65.57 & 43.14 & 72.24 & new\_training\_validation\_selected & revision\_outputs/missing\_ablation\_training/cnn\_aug\_fls\_no\_peak/best\_checkpoint.pth & Best checkpoint selected on validation weighted F1; final evaluation run once on fixed test split. \\
+CNN + Augmentation + Peaks (Concat) & yes & enabled & concat & no\_fls & legacy augmented 245 split & 66.94 & 66.80 & 47.44 & 72.65 & confirmed & training\_results/ablation/ablation3\_model.pth & Corrected ablation mapping; forced concat inference; gate parameters not used in logits. \\
+CNN + Augmentation + Peaks (Gate) & yes & enabled & gate & no\_fls & legacy augmented 245 split & 69.39 & 68.10 & 45.28 & 75.10 & confirmed & training\_results/ablation/ablation4\_model.pth & Corrected ablation mapping; gate fusion; no FLS. \\
+CNN + Augmentation + Peaks (Gate) + FLS & yes & enabled & gate & user\_confirmed\_fls & legacy augmented 245 split & 72.65 & 71.79 & 51.13 & 76.33 & confirmed\_with\_user\_evidence & training\_results/exp\_results/exp\_test4\_model.pth & Final complete model; FLS status user-confirmed, no independent saved run config found. \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+model_name,dataset,perturbation_type,accuracy,weighted_f1,macro_f1,top3_accuracy,n_samples,n_classes_evaluated,mean_predictive_entropy,mean_gate_weight,notes
+ablation1_cnn_only,opxrd,corrected_ablation_clean,0.6359832635983264,0.6231635114913141,0.36255989917431924,0.7196652719665272,239,53,1.3773981745904922,,Mean gate weight unavailable.
+ablation2_cnn_augmentation,opxrd,corrected_ablation_clean,0.6612244897959184,0.6514612027297324,0.4285409241019052,0.7428571428571429,245,56,0.9458532802075527,,Mean gate weight unavailable.
+ablation3_cnn_aug_peaks_concat,opxrd,corrected_ablation_clean,0.6693877551020408,0.6680021194901293,0.4743690343380259,0.726530612244898,245,56,0.697544425813058,,Mean gate weight unavailable.
+ablation4_cnn_aug_peaks_gate,opxrd,corrected_ablation_clean,0.6938775510204082,0.6810199002226296,0.4528109172763625,0.7510204081632653,245,56,0.4005261317852739,0.8761928993061224,

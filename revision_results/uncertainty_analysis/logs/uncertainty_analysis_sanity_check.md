@@ -1,0 +1,21 @@
+# Uncertainty Analysis Sanity Check
+
+- input_file: `revision_outputs/gate_perturbation/per_sample/final_gate_fls_model_gate_perturbation_per_sample.csv`
+- mc_dropout: false
+- mc_passes: not applicable
+- uncertainty_source: single_softmax
+- clean samples: 245
+- clean top-1 accuracy: 0.726531
+- clean top-3 accuracy: 0.763265
+- entropy finite: True
+- probability sum range: 0.9999996423721312 to 1.0000003576278689
+- 80% coverage retained/rejected: 196/49
+- class_frequency_group matched: True
+- crystal system generated: True
+- symmetry_level generated: True
+- max predicted-class fraction: 0.290
+- missing top3: 0
+- missing entropy: 0
+- missing gate_weight: 0
+- main-text candidates: risk_coverage_curve, entropy_threshold_table_for_manuscript, rejected_samples_table_for_manuscript
+- SI candidates: correct_vs_incorrect_entropy_distribution, top_rejected_confusion_pairs_80coverage, rejected_samples_composition_80coverage, partial_confusion_matrix_top_pairs

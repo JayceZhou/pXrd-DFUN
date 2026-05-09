@@ -1,0 +1,33 @@
+{
+  "batch_size": 64,
+  "checkpoint_path": "training_results/ablation/ablation4_model.pth",
+  "classifier_input_dim": 12224,
+  "dataset": "opxrd",
+  "dataset_npz": "experiment_xrd.npz",
+  "device": "cpu",
+  "dropout_modules_enabled": [],
+  "entropy_max": 3.5893346445899157,
+  "entropy_min": 4.411993076966832e-11,
+  "gate_available_for_logits": true,
+  "gate_definition": "PhyNetCNN.Model.forward computes g = gating_network(cat(xrd_features, phys_features)); gated_xrd_features = g * xrd_features and gated_phys_features = (1 - g) * phys_features. Larger gate_weight means stronger scaling of the CNN/XRD branch and weaker scaling of the peak/physical-feature branch. It is a scalar feature gate, not a calibrated branch probability.",
+  "gate_max": 0.9999699592590332,
+  "gate_min": 0.25705116987228394,
+  "gate_return_method": "forward_return_gate",
+  "gate_shape": [
+    244,
+    1
+  ],
+  "git_commit_if_available": "5a2beccdad8c31c0b72502d6a3a5f07a99fc9180",
+  "mc_dropout": false,
+  "mc_passes": 0,
+  "model_name": "candidate_ablation4",
+  "model_variant": "gated_xrd_plus_physical_features_12224",
+  "notes": "Deterministic raw opXRD evaluation split; augmentation disabled. This run is for per-sample analysis only and must not be used to select a best checkpoint. Checkpoint classifier_head consumes gated CNN and physical features concatenated to 12224.",
+  "num_classes": 230,
+  "num_samples": 244,
+  "probability_row_sum_max": 1.0000003576278687,
+  "probability_row_sum_min": 0.9999997019767761,
+  "split_indices_path": "revision_outputs/configs/opxrd_legacy_ablation_test_raw_indices.json",
+  "timestamp": "2026-05-09T10:57:53",
+  "uncertainty_source": "single_softmax"
+}
